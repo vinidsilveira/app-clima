@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #121212;
+  --card-color: #1e1e1e;
+  --accent-color: #4f46e5;
+  --text-color: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: var(--card-color);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.search-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+#city-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#search-button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: white;
+  transition: 0.3s;
+}
+
+#search-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.weather-card {
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+}
+
+.temperature h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
