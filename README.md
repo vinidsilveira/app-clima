@@ -152,8 +152,8 @@ https://seu-link-aqui.com
 
 Estudante de Análise e Desenvolvimento de Sistemas, focado em Desenvolvimento Frontend e na construção de projetos práticos para evolução técnica e fortalecimento do portfólio.
 
-- GitHub: https://github.com/seu-usuario
-- LinkedIn: https://linkedin.com/in/seu-perfil
+- GitHub: https://github.com/vinidsilveira
+- LinkedIn: https://www.linkedin.com/in/vinicius-silveira-dev/
 
 ---
 
